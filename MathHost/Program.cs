@@ -23,7 +23,7 @@ namespace MathHost
             //} 
             #endregion
             ServiceHost host = new ServiceHost(typeof(MyMath));
-            host.AddServiceEndpoint(typeof(IMyMath), new WSHttpBinding(), "http://127.0.0.1/MyMath");   //// endpoint: contract. binding, address
+            host.AddServiceEndpoint(typeof(IMyMath), new NetTcpBinding(), "http://127.0.0.1/MyMath");   //// endpoint: contract. binding, address
             host.Open();
             Console.WriteLine("Service works... Press enter to close");
             Console.ReadLine();
