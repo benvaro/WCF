@@ -11,6 +11,7 @@ namespace TotalMathClient
     {
         static async Task Main(string[] args)
         {
+            #region Test MathClient
             //using (MathClient proxy = new MathClient())
             //{
             //    MathData data = proxy.Calculate(15, 3);
@@ -20,13 +21,16 @@ namespace TotalMathClient
             //    Console.WriteLine($"/ {data.resDiv}");
 
 
-            //}
+            //} 
+            #endregion
+            #region Test StudentClient
             using (StudentClient client = new StudentClient())
             {
-                Student [] arr = client.GetStudents();
+                Student[] arr = client.GetStudents();
                 var stud = await client.GetStudentsAsync();
-            }
-          
+            } 
+            #endregion
+
         }
     }
 }
