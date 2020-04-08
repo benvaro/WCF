@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="4fa68742-0a44-49c7-9559-11ff5e842d4d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/Math" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Math.xsd" MetadataType="Schema" ID="f355ab6c-5445-4915-9492-34702c03bb46" SourceId="1" SourceUrl="http://localhost/Math?xsd=xsd0" />
+    <MetadataFile FileName="Math1.xsd" MetadataType="Schema" ID="4569d46b-5439-4215-8e5b-6aa7e2598370" SourceId="1" SourceUrl="http://localhost/Math?xsd=xsd1" />
+    <MetadataFile FileName="MathLib.wsdl" MetadataType="Wsdl" ID="8dbeea52-1797-4f65-87f2-ba6bd5656503" SourceId="1" SourceUrl="http://localhost/Math?wsdl" />
+    <MetadataFile FileName="Math2.xsd" MetadataType="Schema" ID="dcdc1a0d-e9db-4ece-b444-a9f41365a443" SourceId="1" SourceUrl="http://localhost/Math?xsd=xsd2" />
+    <MetadataFile FileName="Math.disco" MetadataType="Disco" ID="8080431d-9b0d-4052-966e-2114de89ad09" SourceId="1" SourceUrl="http://localhost/Math?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

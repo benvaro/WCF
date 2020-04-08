@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f4c87179-e77c-4aa5-a58e-b7d9fe1262f8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost/Math/Student" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Student.xsd" MetadataType="Schema" ID="a563783a-5626-4905-8b6b-b1cee918e7d8" SourceId="1" SourceUrl="http://localhost/Math/Student?xsd=xsd0" />
+    <MetadataFile FileName="Student1.xsd" MetadataType="Schema" ID="41cc8ecc-f5ed-4645-9138-9203524184d1" SourceId="1" SourceUrl="http://localhost/Math/Student?xsd=xsd1" />
+    <MetadataFile FileName="Student2.xsd" MetadataType="Schema" ID="7ec3404b-4b01-442a-a0e8-7eccb8c86344" SourceId="1" SourceUrl="http://localhost/Math/Student?xsd=xsd2" />
+    <MetadataFile FileName="Student.disco" MetadataType="Disco" ID="13dfe03f-c130-445f-b5f9-e92f7d712916" SourceId="1" SourceUrl="http://localhost/Math/Student?disco" />
+    <MetadataFile FileName="Students.wsdl" MetadataType="Wsdl" ID="a7b25755-ebdf-47ae-ac52-9c58e8a6a9eb" SourceId="1" SourceUrl="http://localhost/Math/Student?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
