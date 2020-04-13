@@ -27,6 +27,7 @@ namespace TotalMathClient
             using (StudentClient client = new StudentClient())
             {
                 Student[] arr = client.GetStudents();
+                //....
                 var stud = await client.GetStudentsAsync();
             } 
             #endregion
