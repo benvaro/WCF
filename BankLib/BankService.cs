@@ -4,7 +4,7 @@ using System.ServiceModel;
 
 namespace BankLib
 {
-    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)] // один сервіс - на один запит
+    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)] // один сервіс - на всіх
     public class BankService : IBankService
     {
         double balance;
